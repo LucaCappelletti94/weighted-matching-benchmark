@@ -10,3 +10,30 @@ bench = false
 [dependencies]
 geometric-traits = { git = "https://github.com/earth-metabolome-initiative/geometric-traits" }
 num-traits = "0.2"
+
+[dev-dependencies]
+criterion = { version = "0.8", features = ["html_reports"] }
+
+[[bench]]
+name = "scaling_with_size_sparse"
+harness = false
+
+[[bench]]
+name = "scaling_with_size_dense"
+harness = false
+
+[[bench]]
+name = "scaling_with_density"
+harness = false
+
+[[bench]]
+name = "cost_distribution"
+harness = false
+
+[[bench]]
+name = "rectangular"
+harness = false
+
+[[bench]]
+name = "cross_category"
+harness = false
