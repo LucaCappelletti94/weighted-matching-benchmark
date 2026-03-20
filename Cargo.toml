@@ -1,0 +1,12 @@
+[package]
+name = "weighted-matching-benchmark"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[lib]
+bench = false
+
+[dependencies]
+geometric-traits = { git = "https://github.com/earth-metabolome-initiative/geometric-traits" }
+num-traits = "0.2"
